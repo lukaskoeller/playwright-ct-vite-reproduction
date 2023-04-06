@@ -1,0 +1,23 @@
+{
+  "name": "@ct/components",
+  "version": "1.0.0",
+  "description": "component library",
+  "main": "src/index.ts",
+  "scripts": {
+    "test-ct": "playwright test -c playwright-ct.config.ts",
+    "test:units": "pnpm test-ct"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "vite": "^2.8.6"
+  },
+  "devDependencies": {
+    "@playwright/experimental-ct-react": "^1.32.2",
+    "@playwright/experimental-ct-react17": "^1.32.2",
+    "@types/react": "^17.0.2"
+  }
+}
