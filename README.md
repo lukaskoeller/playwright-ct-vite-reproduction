@@ -2,6 +2,9 @@
 
 This reproduction is for a bug that appears in the terminal when running playwright component tests.
 
+* [Github Issue](https://github.com/microsoft/playwright/issues/22233)
+* [Discord Thread](https://discord.com/channels/807756831384403968/1092817648590520351)
+
 ## Getting started
 
 From the monorepo root directory, run:
